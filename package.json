@@ -1,0 +1,35 @@
+{
+  "name": "js-workshop",
+  "version": "1.0.0",
+  "description": "Javascript Workshop",
+  "main": "index.js",
+  "scripts": {
+    "setup-repo:client": "cd client && yarn install",
+    "setup-repo:server": "cd server && yarn install",
+    "setup-repo": "concurrently \"yarn run setup-repo:client\" \"yarn run setup-repo:server\"",
+    "start:client": "cd client && yarn start",
+    "start:server": "cd server && yarn start",
+    "start": "concurrently \"yarn run start:client\" \"yarn run start:server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabio7maia/js-workshop.git"
+  },
+  "keywords": [
+    "js",
+    "workshop",
+    "react.js",
+    "express",
+    "mongodb",
+    "todo app"
+  ],
+  "author": "Fábio Maia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabio7maia/js-workshop/issues"
+  },
+  "homepage": "https://github.com/fabio7maia/js-workshop#readme",
+  "dependencies": {
+    "concurrently": "^6.2.0"
+  }
+}
