@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "Javascript Workshop Server App",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "nodemon src/index.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "sqlite3": "^5.0.2"
   },
@@ -17,5 +18,8 @@
     "todo app"
   ],
   "author": "Fábio Maia",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
