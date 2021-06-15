@@ -8,15 +8,14 @@ O repositório contém o código fonte em JS de uma aplicação para efetuar a G
 
 A aplicação de Gestão de Tarefas tem as seguintes funcionalidades:
 
-Criação de tarefas
-
+- Criação de tarefas
 - Alteração do estado das tarefas
 - Validação da alteração de estados (New => In Progress => Done)
 - Apresentação de mensagens de erro
 
 ### 1.1. Cliente (browser)
 
-É utilizada biblioteca [React.js](https://reactjs.org) para apoio na criação de toda a UI (Interface de Utilizador).
+É utilizada a biblioteca [React.js](https://reactjs.org) para apoio na criação de toda a UI (Interface de Utilizador).
 
 A aplicação comunica com uma WEB API (Servidor) para efetuar as respetivas operações disponíveis, usando pedidos HTTP em REST JSON.
 
@@ -36,7 +35,5 @@ Para correr localmente a aplicação e efetuar alterações é necessário algun
 
 ### 2.2. Comandos
 
-1. Instalação de todas as dependências da aplicação (Cliente+Servidor)  
-   `yarn run setup-repo`
-2. Arranque da aplicação (Cliente+Servidor)
-   `yarn run start:dev`
+1. Instalação de todas as dependências da aplicação (Cliente+Servidor)<br>`yarn run setup-repo`
+2. Arranque da aplicação (Cliente+Servidor)<br>`yarn run start:dev`
