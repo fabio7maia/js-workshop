@@ -8,10 +8,10 @@ O repositório contém o código fonte em JS de uma aplicação para efetuar a G
 
 A aplicação de Gestão de Tarefas tem as seguintes funcionalidades:
 
-- Criação de tarefas
-- Alteração do estado das tarefas
-- Validação da alteração de estados (New => In Progress => Done)
-- Apresentação de mensagens de erro
+- [x] Criação de tarefas
+- [x] Alteração do estado das tarefas
+- [x] Validação da alteração de estados (New => In Progress => Done)
+- [x] Apresentação de mensagens de erro
 
 ### 1.1. Cliente (browser)
 
@@ -23,6 +23,10 @@ A aplicação comunica com uma WEB API (Servidor) para efetuar as respetivas ope
 
 No Servidor é utilizado o [Express.js](https://expressjs.com) para auxiliar o processamento das operações recebidas, sendo utilizada uma DB (Base de Dados) local (em ficheiro) usando Sqlite para persistir os dados.
 
+Na operação que permite a alteração de estado de uma tarefa é feita a validação de forma a garantir que a troca de estados é respeitada.
+
+**New** => **In Progress** => **Done**
+
 ## 2. Modo desenvolvimento
 
 Para correr localmente a aplicação e efetuar alterações é necessário alguns requisitos, devendo os mesmos serem satisfeitos pela ordem apresentada.
@@ -33,7 +37,28 @@ Para correr localmente a aplicação e efetuar alterações é necessário algun
 - [Visual Studio Code](https://code.visualstudio.com) (_Opcional_)
 - [Git](https://git-scm.com) (_Opcional_)
 
-### 2.2. Comandos
+### 2.2. Ficheiro .env
+
+Com o objetivo de garantir a execução em diferentes ambientes é necessária a criação do ficheiro **_.env_** na pasta **_client_**.
+
+Para tal basta copiar o ficheiro **_.env.template_** lá existente e renomear para **_.env_**.
+
+### 2.3. Comandos
 
 1. Instalação de todas as dependências da aplicação (Cliente+Servidor)<br>`yarn run setup-repo`
 2. Arranque da aplicação (Cliente+Servidor)<br>`yarn run start:dev`
+
+## 3. Demos
+
+Para a demonstração da aplicação de Gestão de Tarefas, nomeadamente os 2 contextos, Cliente e Servidor, podem ser consultados os seguintes URL's.
+
+- [Cliente](https://js-workshop.netlify.app)
+- [Servidor](https://js-workshop.herokuapp.com)
+
+## 4. Tecnologias utilizadas
+
+- [x] [Vite.js](https://vitejs.dev)
+- [x] [React.js](https://reactjs.org)
+- [x] [Express.js](https://expressjs.com)
+- [x] [Tailwindcss](https://tailwindcss.com)
+- [x] [Sqlite](https://www.sqlite.org)
