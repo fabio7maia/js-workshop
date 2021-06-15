@@ -4,7 +4,7 @@
   "description": "Javascript Workshop",
   "main": "index.js",
   "scripts": {
-    "heroku-prebuild": "yarn run install && concurrently \"yarn run setup-repo:client\" \"yarn run setup-repo:server\"",
+    "heroku-prebuild": "yarn install && concurrently \"yarn run setup-repo:client\" \"yarn run setup-repo:server\"",
     "setup-repo:client": "cd client && yarn install",
     "setup-repo:server": "cd server && yarn install",
     "setup-repo": "concurrently \"yarn run setup-repo:client\" \"yarn run setup-repo:server\"",
