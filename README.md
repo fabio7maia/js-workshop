@@ -15,13 +15,13 @@ A aplicação de Gestão de Tarefas tem as seguintes funcionalidades:
 
 ### 1.1. Cliente (browser)
 
-É utilizada a biblioteca <a href="https://reactjs.org" target="_blank">React.js</a> para apoio na criação de toda a UI (Interface de Utilizador).
+É utilizada a biblioteca [React.js](https://reactjs.org) para apoio na criação de toda a UI (Interface de Utilizador).
 
 A aplicação comunica com uma WEB API (Servidor) para efetuar as respetivas operações disponíveis, usando pedidos HTTP em REST JSON.
 
 ### 1.2. Servidor
 
-No Servidor é utilizado o [Express.js](https://expressjs.com){:target="\_blank"} para auxiliar o processamento das operações recebidas, sendo utilizada uma DB (Base de Dados) local (em ficheiro) usando Sqlite para persistir os dados.
+No Servidor é utilizado o [Express.js](https://expressjs.com) para auxiliar o processamento das operações recebidas, sendo utilizada uma DB (Base de Dados) local (em ficheiro) usando Sqlite para persistir os dados.
 
 Na operação que permite a alteração de estado de uma tarefa é feita a validação de forma a garantir que a troca de estados é respeitada.
 
@@ -33,9 +33,9 @@ Para correr localmente a aplicação e efetuar alterações é necessário algun
 
 ### 2.1. Software
 
-- [Node.js](https://nodejs.org){:target="\_blank"}
-- [Visual Studio Code](https://code.visualstudio.com){:target="_blank"} (\_Opcional_)
-- [Git](https://git-scm.com){:target="_blank"} (\_Opcional_)
+- [Node.js](https://nodejs.org)
+- [Visual Studio Code](https://code.visualstudio.com) (**_Opcional_**)
+- [Git](https://git-scm.com) (**_Opcional_**)
 
 ### 2.2. Ficheiro .env
 
@@ -52,13 +52,13 @@ Para tal basta copiar o ficheiro **_.env.template_** lá existente e renomear pa
 
 Para a demonstração da aplicação de Gestão de Tarefas, nomeadamente os 2 contextos, Cliente e Servidor, podem ser consultados os seguintes URL's.
 
-- [Cliente](https://js-workshop.netlify.app){:target="\_blank"}
-- [Servidor](https://js-workshop.herokuapp.com){:target="\_blank"}
+- [Cliente](https://js-workshop.netlify.app)
+- [Servidor](https://js-workshop.herokuapp.com)
 
 ## 4. Tecnologias utilizadas
 
-- [x] [Vite.js](https://vitejs.dev){:target="\_blank"}
-- [x] [React.js](https://reactjs.org){:target="\_blank"}
-- [x] [Express.js](https://expressjs.com){:target="\_blank"}
-- [x] [Tailwindcss](https://tailwindcss.com){:target="\_blank"}
-- [x] [Sqlite](https://www.sqlite.org){:target="\_blank"}
+- [x] [Vite.js](https://vitejs.dev)
+- [x] [React.js](https://reactjs.org)
+- [x] [Express.js](https://expressjs.com)
+- [x] [Tailwindcss](https://tailwindcss.com)
+- [x] [Sqlite](https://www.sqlite.org)
