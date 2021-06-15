@@ -15,7 +15,7 @@ process.on("exit", function () {
   db.disconnect();
 });
 
-const port = 5000;
+const port = process.env.PORT || 5000;
 
 app.get("/", async (req, res) => {
   res.send(`Todo App Server v.${packageJson.version}`);
