@@ -62,3 +62,5 @@ Para a demonstração da aplicação de Gestão de Tarefas, nomeadamente os 2 co
 - [x] [Express.js](https://expressjs.com)
 - [x] [Tailwindcss](https://tailwindcss.com)
 - [x] [Sqlite](https://www.sqlite.org)
+- [x] [Netlify](https://www.netlify.com)
+- [x] [Heroku](https://www.heroku.com)
