@@ -15,7 +15,7 @@ A aplicação de Gestão de Tarefas tem as seguintes funcionalidades:
 
 ### 1.1. Cliente (browser)
 
-É utilizada a biblioteca [React.js](https://reactjs.org){:target="\_blank"} para apoio na criação de toda a UI (Interface de Utilizador).
+É utilizada a biblioteca <a href="https://reactjs.org" target="_blank">React.js</a> para apoio na criação de toda a UI (Interface de Utilizador).
 
 A aplicação comunica com uma WEB API (Servidor) para efetuar as respetivas operações disponíveis, usando pedidos HTTP em REST JSON.
 
