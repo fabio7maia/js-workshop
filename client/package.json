@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Javascript Workshop Client App",
   "scripts": {
-    "start": "vite",
+    "start": "yarn run build",
+    "start:dev": "vite",
     "build": "cross-env NODE_ENV=production vite build",
     "serve": "vite preview"
   },
